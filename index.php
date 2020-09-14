@@ -15,12 +15,6 @@ $projetoLocal = (string)readline('Insira a Localização do projeto Local. -> ')
 $arquivoLocal = (string)readline('Insira o nome do arquivo: Ex:readme.md -> ');
 $commit = (string)readline('Informe a mensagem do commit. -> ');
 
-echo PHP_EOL . ".";
-usleep(800000);
-echo ".";
-usleep(800000);
-echo "." . PHP_EOL;
-
 $github = new Github($GitHubUser);
 $linguagensString = $github->getLinguagensString($github->getLinguagens());
 
