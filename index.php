@@ -25,6 +25,7 @@ usleep(800000);
 echo ".";
 usleep(800000);
 echo "." . PHP_EOL;
+usleep(500000);
 
 
 $data = date("d/m/Y H:i:s");
@@ -68,6 +69,7 @@ usleep(800000);
 echo ".";
 usleep(800000);
 echo "." . PHP_EOL;
+usleep(500000);
 
 if ($readme->gerarArquivo()) {
     echo shell_exec("cd {$projetoLocal} && /usr/bin/git add . && /usr/bin/git commit -m '{$mensagem}' && /usr/bin/git push");

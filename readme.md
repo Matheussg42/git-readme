@@ -34,7 +34,7 @@ Projeto criado para atualizar o Readme do meu GitHub com as tecnologias utilizad
 
 - Terminal:
 
-![](.assets/terminal.PNG
+![](.assets/terminal.gif)
 )
 - GitHub:
 
