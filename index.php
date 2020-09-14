@@ -15,8 +15,24 @@ $projetoLocal = (string)readline('Insira a Localização do projeto Local. -> ')
 $arquivoLocal = (string)readline('Insira o nome do arquivo: Ex:readme.md -> ');
 $commit = (string)readline('Informe a mensagem do commit. -> ');
 
+echo PHP_EOL . ".";
+usleep(800000);
+echo ".";
+usleep(800000);
+echo "." . PHP_EOL;
+
 $github = new Github($GitHubUser);
 $linguagensString = $github->getLinguagensString($github->getLinguagens());
+
+echo "Buscando Repositórios";
+usleep(800000);
+echo ".";
+usleep(800000);
+echo ".";
+usleep(800000);
+echo "." . PHP_EOL;
+
+
 $data = date("d/m/Y H:i:s");
 
 $readmeTexto = "<p align='center'><a target='_blank' href='https://matheus.sgomes.dev'><img src='https://matheus.sgomes.dev/img/logo_azul.png'></a></p>
@@ -51,6 +67,16 @@ $caminho = $projetoLocal . '/' . $arquivoLocal;
 $readme = new Readme($caminho, $readmeTexto);
 $mensagem = $commit . PHP_EOL . "Atualizando Readme em {$data}";
 
+echo "Gerando readme";
+usleep(800000);
+echo ".";
+usleep(800000);
+echo ".";
+usleep(800000);
+echo "." . PHP_EOL;
+
 if ($readme->gerarArquivo()) {
     echo shell_exec("cd {$projetoLocal} && /usr/bin/git add . && /usr/bin/git commit -m '{$mensagem}' && /usr/bin/git push");
 }
+
+echo "Finalizado!";
