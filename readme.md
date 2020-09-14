@@ -1,38 +1,43 @@
-<p align='center'><a target='_blank' href='https://matheus.sgomes.dev'><img src='https://matheus.sgomes.dev/img/logo_azul.png'></a></p>
+<p align="center"><a target="_blank" href="https://matheus.sgomes.dev"><img src="https://matheus.sgomes.dev/img/logo_azul.png"></a></>
+
 
 👤 **Matheus S. Gomes** 
 
-### Olá!👋
+* Website: https://matheus.sgomes.dev
+* Github: [@Matheussg42](https://github.com/Matheussg42)
+* LinkedIn: [@matheussg](https://linkedin.com/in/matheussg)
+* Medium: [@matheussg](https://medium.com/@matheussg)
 
-#### Sou desenvolvedor Full-stack trabalhando com PHP, Node.js e React.js em Belo Horizonte, MG.
+---
 
-- **⚙️ Techs: `PHP`, `Laravel`, `Node.js`, `React.js`**
-- **🌍 Website: https://matheus.sgomes.dev**
-- **💻 Github: [@Matheussg42](https://github.com/Matheussg42)**
-- **📝 LinkedIn: [@matheussg](https://linkedin.com/in/matheussg)**
-- **🌐 Twitter: [@matheussg42](https://twitter.com/matheussg42)**
-- **📝 Medium: [@matheussg](https://medium.com/@matheussg)**
+<p align="center">
+  <img alt="PHP" src="https://img.shields.io/static/v1?label=PHP&message=7.4&color=27ae60&labelColor=556694">
+</p>
 
-#### Sou desenvolvedor Full-stack trabalhando com PHP, Node.js e React.js em Belo Horizonte, MG.
+Projeto criado para atualizar o Readme do meu GitHub com as tecnologias utilizadas nos meus projetos.
 
-<hr>
+### Pré-Requisitos:
 
-#### Sobre o meu GitHub eu possuo no momento 15 projetos publicos nas seguintes linguagens:
-   
-<br>
+- PHP
+- Composer
+- Git
+- Projeto Readme do GitHub clonado em sua máquina.
 
-> **TypeScript -> 6.66%**
+### Para utilizar:
 
-> **PHP -> 39.96%**
+- Baixe o projeto para a sua máquina.
+- Altere o conteúdo da variável `$readmeTexto` do arquivo `index.php`.
+- Rode o comando `composer install` para instalar as dependências.
+- Execute o comando `php index.php`.
 
-> **HTML -> 6.66%**
+### Utilização:
 
-> **Java -> 6.66%**
+- Terminal:
 
-> **Markdown -> 6.66%**
+![](.assets/terminal.PNG
+)
+- GitHub:
 
-> **JavaScript -> 33.3%**
+![](.assets/Github.PNG)
 
-
-
-Atualizado no dia 13/09/2020 20:59:38
+![](.assets/Commit.PNG)
